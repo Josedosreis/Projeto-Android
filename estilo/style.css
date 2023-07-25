@@ -33,7 +33,7 @@ body {
 }
 
 a.externo::after {
-    content: '\00A0\1F517'
+    content: '\00A0\1F517';
     
 }
 
@@ -147,7 +147,7 @@ main strong {
 main a {
     text-decoration: none;
     font-weight: bold;
-    color: yellow;
+    color:  rgb(0, 245, 0);
     background-color:  rgba(38, 100, 38, 0.788);
     border-radius: 5px;
     padding: 2px 6px;
@@ -155,7 +155,7 @@ main a {
 }
 
 main a:hover {
-    color: rgba(255, 0, 0, 0.753);
+    color: rgba(82, 228, 131, 0.658);
     text-decoration: underline;
     
 }
@@ -219,13 +219,11 @@ footer {
 
 
 footer > p > a {
-    color: white;
+    color: rgb(0, 245, 0);
     font-weight: bold;
     text-decoration: none;
 }
 
 footer > p > a:hover {
     text-decoration: underline;
-    color: var(--cor0)
-}
-
+    color: var(--cor0);
